@@ -1,134 +1,209 @@
-<div align="center">
+import React, { useEffect, useState } from "react";
+import {
+  Code2,
+  Server,
+  Database,
+  Cloud,
+  Cpu,
+  ShieldCheck,
+  Terminal,
+  Github,
+  Linkedin,
+  Mail,
+  ChevronDown,
+  Layers,
+  Network,
+  Smartphone,
+  Braces,
+  Boxes,
+  GitBranch,
+  HardDrive,
+} from "lucide-react";
 
-Hi, I'm Mohammed 👋
+const SKILLS = [
+  {
+    title: "Frontend",
+    icon: Code2,
+    items: [
+      { name: "React", icon: Braces },
+      { name: "Vue.js", icon: Braces },
+      { name: "Flutter", icon: Smartphone },
+      { name: "TypeScript", icon: Braces },
+      { name: "Tailwind CSS", icon: Layers },
+    ],
+  },
+  {
+    title: "Backend",
+    icon: Server,
+    items: [
+      { name: ".NET", icon: Boxes },
+      { name: "Node.js", icon: Boxes },
+      { name: "Express", icon: Boxes },
+      { name: "REST APIs", icon: Network },
+    ],
+  },
+  {
+    title: "Databases",
+    icon: Database,
+    items: [
+      { name: "SQL Server", icon: HardDrive },
+      { name: "PostgreSQL", icon: HardDrive },
+      { name: "MongoDB", icon: HardDrive },
+      { name: "MySQL", icon: HardDrive },
+    ],
+  },
+  {
+    title: "DevOps & Cloud",
+    icon: Cloud,
+    items: [
+      { name: "Docker", icon: Boxes },
+      { name: "Linux Server", icon: Terminal },
+      { name: "Nginx", icon: Network },
+      { name: "GitHub Actions", icon: GitBranch },
+    ],
+  },
+  {
+    title: "Networking",
+    icon: Network,
+    items: [
+      { name: "Windows Server", icon: Server },
+      { name: "DNS & Firewall", icon: ShieldCheck },
+      { name: "NAT & Port Forwarding", icon: Network },
+      { name: "IoT Integrations", icon: Cpu },
+    ],
+  },
+  {
+    title: "Architecture",
+    icon: Layers,
+    items: [
+      { name: "Clean Architecture", icon: Layers },
+      { name: "SOLID Principles", icon: ShieldCheck },
+      { name: "Design Patterns", icon: Boxes },
+      { name: "Clean Code", icon: Braces },
+    ],
+  },
+];
 
-🚀 Full-Stack Developer | Architecting Scalable Systems
+export default function App() {
+  const [visible, setVisible] = useState(false);
 
-<p align="center">
-<img src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3DUSERNAME%26label%3DProfile%2520Views%26color%3D0e75b6%26style%3Dflat" alt="Profile Views" />
-</p>
+  useEffect(() => setVisible(true), []);
 
-<p>
-<em>"I bridge the gap between complex backend logic and sleek frontend interfaces."</em>
-</p>
+  const scrollTo = (id) =>
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
-<p>
-<b>Specialized in:</b>
+  return (
+    <div className="min-h-screen bg-slate-950 text-slate-200">
 
+      {/* NAV */}
+      <nav className="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur border-b border-slate-800">
+        <div className="max-w-6xl mx-auto h-16 px-6 flex items-center justify-between">
+          <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">
+            M.DEV
+          </span>
+          <div className="hidden md:flex gap-8 text-sm text-slate-400">
+            {["about", "skills", "contact"].map((s) => (
+              <button key={s} onClick={() => scrollTo(s)} className="hover:text-cyan-400">
+                {s.toUpperCase()}
+              </button>
+            ))}
+          </div>
+        </div>
+      </nav>
 
+      {/* HERO */}
+      <section
+        id="about"
+        className="pt-32 min-h-screen flex flex-col justify-center px-6 max-w-6xl mx-auto"
+      >
+        <div className={`transition-all duration-1000 ${visible ? "opacity-100" : "opacity-0 translate-y-6"}`}>
+          <span className="inline-flex items-center gap-2 px-3 py-1 mb-6 rounded-full bg-cyan-950/40 border border-cyan-800 text-cyan-400 text-sm">
+            <Terminal size={14} /> Full-Stack Developer
+          </span>
 
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+            Mohammed<br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-500">
+              Clean Architecture Engineer
+            </span>
+          </h1>
 
-Clean Architecture • Cloud Infrastructure • Robust Server Environments
-</p>
+          <p className="max-w-2xl text-xl text-slate-400 mb-10">
+            Building scalable systems, production-ready APIs, secure servers,
+            and clean maintainable architectures.
+          </p>
 
-<a href="mailto:your-email@example.com">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Email-Contact_Me-333333%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dred" />
-</a>
-<a href="https://www.linkedin.com/in/USERNAME">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" />
-</a>
+          <div className="flex gap-4">
+            <button
+              onClick={() => scrollTo("contact")}
+              className="px-8 py-3 bg-cyan-600 hover:bg-cyan-500 rounded-lg flex items-center gap-2"
+            >
+              <Mail size={18} /> Contact
+            </button>
+            <a
+              href="https://github.com/USERNAME"
+              target="_blank"
+              rel="noreferrer"
+              className="px-8 py-3 bg-slate-800 border border-slate-700 rounded-lg flex items-center gap-2"
+            >
+              <Github size={18} /> GitHub
+            </a>
+          </div>
+        </div>
 
-</div>
+        <ChevronDown className="mx-auto mt-20 animate-bounce text-slate-600" />
+      </section>
 
-🛡️ Code Quality & Philosophy
+      {/* SKILLS */}
+      <section id="skills" className="py-24 px-6 max-w-6xl mx-auto">
+        <h2 className="text-center text-4xl font-bold mb-16">Technical Stack</h2>
 
-"Writing code is easy; writing code that lasts is hard."
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {SKILLS.map(({ title, icon: Icon, items }) => (
+            <div
+              key={title}
+              className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <div className="p-3 bg-cyan-500/10 text-cyan-400 rounded-lg">
+                  <Icon size={22} />
+                </div>
+                <h3 className="text-xl font-bold">{title}</h3>
+              </div>
 
-My development approach is centered around maintainability and scalability. I don't just write code; I design systems.
+              <div className="flex flex-wrap gap-2">
+                {items.map(({ name, icon: I }) => (
+                  <span
+                    key={name}
+                    className="flex items-center gap-2 px-3 py-1 bg-slate-800 border border-slate-700 rounded-md text-sm"
+                  >
+                    <I size={14} /> {name}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
-🏛️ Architecture
-
-🧱 Principles
-
-📐 Design
-
-✨ Quality
-
-Clean Architecture
-
-
-
-Separation of concerns
-
-SOLID
-
-
-
-Object-Oriented Design
-
-Design Patterns
-
-
-
-Proven solutions
-
-Clean Code
-
-
-
-Readable & Testable
-
-⚡ Technical Arsenal
-
-<table align="center">
-<tr>
-<td align="center" width="33%">
-<h3>💻 Frontend</h3>
-<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dreact,vue,flutter,ts,tailwind,html,css%26perline%3D4" />
-</td>
-<td align="center" width="33%">
-<h3>🧠 Backend</h3>
-<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Ddotnet,cs,nodejs,express%26perline%3D4" />
-
-
-
-
-
-
-
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/REST_API-009688%3Fstyle%3Dflat-square%26logo%3Dpostman%26logoColor%3Dwhite" />
-</td>
-<td align="center" width="33%">
-<h3>🗄️ Database</h3>
-<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpostgres,mysql,mongodb,sqlserver%26perline%3D4" />
-</td>
-</tr>
-<tr>
-<td align="center">
-<h3>☁️ DevOps & Cloud</h3>
-<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Ddocker,linux,nginx,githubactions,azure%26perline%3D4" />
-</td>
-<td align="center">
-<h3>🌐 Networks & Servers</h3>
-<img src="https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux_Server-FCC624?style=flat-square&logo=linux&logoColor=black" />
-
-
-
-
-
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/DNS_&Firewall-Shield-red?style=flat-square" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/NAT&_Port_Fwd-Network-blue?style=flat-square" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/IoT_Integrations-Connected-success%3Fstyle%3Dflat-square" />
-</td>
-<td align="center">
-<h3>🧩 Leadership</h3>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Team_Leadership-2E7D32%3Fstyle%3Dflat-square" />
-<img src="https://img.shields.io/badge/Code_Review-1565C0?style=flat-square" />
-<img src="https://img.shields.io/badge/Debugging-795548?style=flat-square" />
-<img src="https://img.shields.io/badge/Problem_Solving-E91E63?style=flat-square" />
-</td>
-</tr>
-</table>
-
-<div align="center">
-<h3>📫 Let's Connect</h3>
-<p>Open for opportunities in Full-Stack Development and System Architecture.</p>
-
-<a href="https://github.com/USERNAME">
-<img src="https://skillicons.dev/icons?i=github" />
-</a>
-<a href="https://www.linkedin.com/in/USERNAME">
-<img src="https://skillicons.dev/icons?i=linkedin" />
-</a>
-</div>
+      {/* CONTACT */}
+      <section id="contact" className="py-24 text-center bg-slate-900">
+        <h2 className="text-3xl font-bold mb-8">Let’s Work Together</h2>
+        <div className="flex flex-col md:flex-row gap-6 justify-center">
+          <a
+            href="https://linkedin.com/in/USERNAME"
+            className="px-8 py-4 bg-[#0077b5] rounded-xl flex items-center justify-center gap-3"
+          >
+            <Linkedin /> LinkedIn
+          </a>
+          <a
+            href="mailto:your@email.com"
+            className="px-8 py-4 bg-slate-800 border border-slate-700 rounded-xl flex items-center justify-center gap-3"
+          >
+            <Mail /> Email
+          </a>
+        </div>
+      </section>
+    </div>
+  );
+}
