@@ -1,87 +1,145 @@
-<h1>👋 أهلاً! سعيد بزيارتك</h1>
+# 👋 أهلاً، سعيد بزيارتك
 
-<p>
-أنا <b>Mohammed</b>، مطوّر <b>Full-Stack</b>  
-أهتم ببناء تطبيقات حديثة، قابلة للتوسع، وأحب العمل على الأنظمة الواقعية (HR، محاسبة، APIs).
-</p>
+أنا **Mohammed**  
+**Full-Stack Developer** أعمل على بناء أنظمة قوية، نظيفة، وقابلة للتوسع، مع خبرة عملية في السيرفرات، الشبكات، والنشر السحابي.
 
-<hr/>
+أؤمن أن الكود الجيد لا يشتغل فقط، بل **يُفهم، يُصان، ويعيش طويلاً**.
 
-<h3>🧠 التقنيات التي أعمل بها</h3>
-<p>
-  <!-- Frontend -->
-  <img src="https://img.shields.io/badge/React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue-3FB984?style=flat-square&logo=vue.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+---
 
-  <!-- Backend -->
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-43853d?style=flat-square&logo=node.js&logoColor=white" />
+## 🧠 التقنيات التي أعمل بها
 
-  <!-- Database -->
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
+### Frontend
+- React
+- Vue.js
+- Flutter
 
-  <!-- DevOps -->
-  <img src="https://img.shields.io/badge/Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
+### Backend
+- .NET
+- Node.js (Express / APIs)
 
-  <!-- Tools -->
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-</p>
+### Databases
+- SQL Server
+- MongoDB
 
-<hr/>
+### DevOps & Tools
+- Docker
+- Nginx / IIS
+- Git & GitHub Actions
+- CI / CD Pipelines
 
-<h3>🚀 مشاريع مختارة</h3>
+---
 
-<table>
-  <thead>
-    <tr>
-      <th>المشروع</th>
-      <th>الوصف</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>HR Management API</b></td>
-      <td>نظام موارد بشرية باستخدام .NET + SQL Server</td>
-    </tr>
-    <tr>
-      <td><b>Attendance System</b></td>
-      <td>ربط أجهزة البصمة مع Node.js و Express</td>
-    </tr>
-    <tr>
-      <td><b>Admin Dashboard</b></td>
-      <td>لوحة تحكم React / Vue مع صلاحيات وأدوار</td>
-    </tr>
-  </tbody>
-</table>
+## 🧱 Clean Code & Clean Architecture
 
-<hr/>
+- تطبيق **Clean Architecture**
+- Separation of Concerns
+- SOLID Principles
+- Design Patterns
+- كتابة كود:
+  - قابل للصيانة
+  - قابل للاختبار
+  - قابل للتوسع
+- Code Review & Refactoring
 
-<h3>✍️ أشياء أعمل عليها حالياً</h3>
-<ul>
-  <li>تحسين بنية APIs و Clean Architecture</li>
-  <li>Dockerizing مشاريع .NET و Node</li>
-  <li>أنظمة داخلية للشركات (HR – Accounting)</li>
-</ul>
+---
 
-<hr/>
+## ☁️ الاستضافة والسحابة (Hosting & Cloud)
 
-<h3>📫 تواصل معي</h3>
-<p>
-  <a href="https://github.com/USERNAME" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-12100E?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/USERNAME" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+- رفع ونشر المشاريع على:
+  - VPS
+  - Shared Hosting
+  - Cloud Servers
+- إعداد:
+  - Docker Containers
+  - Environment Variables
+  - Production Builds
+- التعامل مع مشاكل النشر والأداء
 
-<hr/>
+---
 
-<p align="center">
-⭐ إذا أعجبك أي مشروع لا تنسَ دعمه بنجمة  
-</p>
+## 🖥️ السيرفرات والشبكات
+
+- إدارة السيرفرات:
+  - Linux
+  - Windows Server
+- إعداد وتشغيل:
+  - Nginx
+  - IIS
+  - Reverse Proxy
+- Network Configuration:
+  - Port Forwarding
+  - Firewall Rules
+  - DNS & Domains
+  - TCP/IP – Ports – NAT
+- ربط الأنظمة الداخلية مع الشبكات الخارجية
+
+---
+
+## 🔧 Backend & Systems
+
+- بناء RESTful APIs
+- Authentication & Authorization
+- Role-Based Access Control
+- ربط أجهزة خارجية (مثل أجهزة البصمة)
+- تحسين الأداء ومعالجة Bottlenecks
+- Logging & Error Handling
+
+---
+
+## 🧠 Problem Solving
+
+- تحليل المشاكل المعقدة
+- Debugging احترافي
+- تحويل المتطلبات إلى حلول تقنية
+- التفكير المنهجي خطوة بخطوة
+
+---
+
+## 🤝 Soft Skills & Leadership
+
+### 👨‍💼 Team Leader
+- قيادة فرق تطوير
+- توزيع المهام
+- متابعة التقدم
+- Code Review
+- اتخاذ قرارات تقنية مدروسة
+
+### 🗣️ Soft Skills
+- تواصل واضح مع الفريق والعملاء
+- فهم المتطلبات وتحليلها
+- إدارة الوقت وضغط العمل
+- عقلية تعلم مستمر
+
+---
+
+## 🌐 مجالات إضافية
+
+- IoT (إنترنت الأشياء)
+- ISP & Networking Concepts
+- أنظمة حقيقية:
+  - HR Systems
+  - Accounting Systems
+  - Attendance Systems
+
+---
+
+## 🚀 مشاريع أعمل عليها
+
+| المشروع | الوصف |
+|------|------|
+| HR Management System | نظام موارد بشرية باستخدام .NET و SQL Server |
+| Attendance Integration | ربط أجهزة بصمة مع Node.js |
+| Admin Dashboard | لوحة تحكم بصلاحيات وأدوار |
+| Internal APIs | APIs قابلة للتوسع |
+
+---
+
+## 📫 تواصل معي
+
+- GitHub: https://github.com/USERNAME  
+- LinkedIn: https://www.linkedin.com/in/USERNAME  
+
+---
+
+⭐ إذا أعجبك أي مشروع، لا تنسَ دعمه بنجمة  
