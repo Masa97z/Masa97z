@@ -1,145 +1,74 @@
-# 👋 أهلاً، سعيد بزيارتك
-
-أنا **Mohammed**  
-**Full-Stack Developer** أعمل على بناء أنظمة قوية، نظيفة، وقابلة للتوسع، مع خبرة عملية في السيرفرات، الشبكات، والنشر السحابي.
-
-أؤمن أن الكود الجيد لا يشتغل فقط، بل **يُفهم، يُصان، ويعيش طويلاً**.
+# 👋 Hi, I'm Mohammed  
+**Full-Stack Developer | Clean Architecture | Cloud & Servers**
 
 ---
 
-## 🧠 التقنيات التي أعمل بها
+## 🚀 Tech Stack & Skills
 
-### Frontend
-- React
-- Vue.js
-- Flutter
+### 💻 Frontend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,vue,flutter,html,css,js,ts" />
+</p>
 
-### Backend
-- .NET
-- Node.js (Express / APIs)
+### 🧠 Backend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=dotnet,nodejs,express" />
+</p>
 
-### Databases
-- SQL Server
-- MongoDB
+### 🗄️ Databases
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" />
+  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
+</p>
 
-### DevOps & Tools
-- Docker
-- Nginx / IIS
-- Git & GitHub Actions
-- CI / CD Pipelines
+### ☁️ DevOps & Cloud
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,linux" />
+</p>
 
----
+### 🖥️ Servers & Networking
+<p align="left">
+  <img src="https://img.shields.io/badge/Linux_Server-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/NAT-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Port_Forwarding-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Firewall-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/DNS-000000?style=flat-square" />
+</p>
 
-## 🧱 Clean Code & Clean Architecture
+### 🧱 Architecture & Code Quality
+<p align="left">
+  <img src="https://img.shields.io/badge/Clean_Architecture-4CAF50?style=flat-square" />
+  <img src="https://img.shields.io/badge/Clean_Code-2196F3?style=flat-square" />
+  <img src="https://img.shields.io/badge/SOLID-9C27B0?style=flat-square" />
+  <img src="https://img.shields.io/badge/Design_Patterns-FF9800?style=flat-square" />
+</p>
 
-- تطبيق **Clean Architecture**
-- Separation of Concerns
-- SOLID Principles
-- Design Patterns
-- كتابة كود:
-  - قابل للصيانة
-  - قابل للاختبار
-  - قابل للتوسع
-- Code Review & Refactoring
+### 🔧 Systems & Integrations
+<p align="left">
+  <img src="https://img.shields.io/badge/REST_API-009688?style=flat-square" />
+  <img src="https://img.shields.io/badge/Authentication-673AB7?style=flat-square" />
+  <img src="https://img.shields.io/badge/RBAC-3F51B5?style=flat-square" />
+  <img src="https://img.shields.io/badge/IoT-607D8B?style=flat-square" />
+</p>
 
----
-
-## ☁️ الاستضافة والسحابة (Hosting & Cloud)
-
-- رفع ونشر المشاريع على:
-  - VPS
-  - Shared Hosting
-  - Cloud Servers
-- إعداد:
-  - Docker Containers
-  - Environment Variables
-  - Production Builds
-- التعامل مع مشاكل النشر والأداء
-
----
-
-## 🖥️ السيرفرات والشبكات
-
-- إدارة السيرفرات:
-  - Linux
-  - Windows Server
-- إعداد وتشغيل:
-  - Nginx
-  - IIS
-  - Reverse Proxy
-- Network Configuration:
-  - Port Forwarding
-  - Firewall Rules
-  - DNS & Domains
-  - TCP/IP – Ports – NAT
-- ربط الأنظمة الداخلية مع الشبكات الخارجية
+### 🧠 Problem Solving & Leadership
+<p align="left">
+  <img src="https://img.shields.io/badge/Problem_Solving-E91E63?style=flat-square" />
+  <img src="https://img.shields.io/badge/Debugging-795548?style=flat-square" />
+  <img src="https://img.shields.io/badge/Team_Leader-2E7D32?style=flat-square" />
+  <img src="https://img.shields.io/badge/Code_Review-1565C0?style=flat-square" />
+  <img src="https://img.shields.io/badge/Soft_Skills-FF5722?style=flat-square" />
+</p>
 
 ---
 
-## 🔧 Backend & Systems
-
-- بناء RESTful APIs
-- Authentication & Authorization
-- Role-Based Access Control
-- ربط أجهزة خارجية (مثل أجهزة البصمة)
-- تحسين الأداء ومعالجة Bottlenecks
-- Logging & Error Handling
-
----
-
-## 🧠 Problem Solving
-
-- تحليل المشاكل المعقدة
-- Debugging احترافي
-- تحويل المتطلبات إلى حلول تقنية
-- التفكير المنهجي خطوة بخطوة
-
----
-
-## 🤝 Soft Skills & Leadership
-
-### 👨‍💼 Team Leader
-- قيادة فرق تطوير
-- توزيع المهام
-- متابعة التقدم
-- Code Review
-- اتخاذ قرارات تقنية مدروسة
-
-### 🗣️ Soft Skills
-- تواصل واضح مع الفريق والعملاء
-- فهم المتطلبات وتحليلها
-- إدارة الوقت وضغط العمل
-- عقلية تعلم مستمر
-
----
-
-## 🌐 مجالات إضافية
-
-- IoT (إنترنت الأشياء)
-- ISP & Networking Concepts
-- أنظمة حقيقية:
-  - HR Systems
-  - Accounting Systems
-  - Attendance Systems
-
----
-
-## 🚀 مشاريع أعمل عليها
-
-| المشروع | الوصف |
-|------|------|
-| HR Management System | نظام موارد بشرية باستخدام .NET و SQL Server |
-| Attendance Integration | ربط أجهزة بصمة مع Node.js |
-| Admin Dashboard | لوحة تحكم بصلاحيات وأدوار |
-| Internal APIs | APIs قابلة للتوسع |
-
----
-
-## 📫 تواصل معي
-
-- GitHub: https://github.com/USERNAME  
-- LinkedIn: https://www.linkedin.com/in/USERNAME  
-
----
-
-⭐ إذا أعجبك أي مشروع، لا تنسَ دعمه بنجمة  
+## 📫 Contact
+<p align="left">
+  <a href="https://github.com/USERNAME">
+    <img src="https://skillicons.dev/icons?i=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/USERNAME">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+</p>
