@@ -1,209 +1,103 @@
-import React, { useEffect, useState } from "react";
-import {
-  Code2,
-  Server,
-  Database,
-  Cloud,
-  Cpu,
-  ShieldCheck,
-  Terminal,
-  Github,
-  Linkedin,
-  Mail,
-  ChevronDown,
-  Layers,
-  Network,
-  Smartphone,
-  Braces,
-  Boxes,
-  GitBranch,
-  HardDrive,
-} from "lucide-react";
+# 👋 Mohammed | Full-Stack Developer
 
-const SKILLS = [
-  {
-    title: "Frontend",
-    icon: Code2,
-    items: [
-      { name: "React", icon: Braces },
-      { name: "Vue.js", icon: Braces },
-      { name: "Flutter", icon: Smartphone },
-      { name: "TypeScript", icon: Braces },
-      { name: "Tailwind CSS", icon: Layers },
-    ],
-  },
-  {
-    title: "Backend",
-    icon: Server,
-    items: [
-      { name: ".NET", icon: Boxes },
-      { name: "Node.js", icon: Boxes },
-      { name: "Express", icon: Boxes },
-      { name: "REST APIs", icon: Network },
-    ],
-  },
-  {
-    title: "Databases",
-    icon: Database,
-    items: [
-      { name: "SQL Server", icon: HardDrive },
-      { name: "PostgreSQL", icon: HardDrive },
-      { name: "MongoDB", icon: HardDrive },
-      { name: "MySQL", icon: HardDrive },
-    ],
-  },
-  {
-    title: "DevOps & Cloud",
-    icon: Cloud,
-    items: [
-      { name: "Docker", icon: Boxes },
-      { name: "Linux Server", icon: Terminal },
-      { name: "Nginx", icon: Network },
-      { name: "GitHub Actions", icon: GitBranch },
-    ],
-  },
-  {
-    title: "Networking",
-    icon: Network,
-    items: [
-      { name: "Windows Server", icon: Server },
-      { name: "DNS & Firewall", icon: ShieldCheck },
-      { name: "NAT & Port Forwarding", icon: Network },
-      { name: "IoT Integrations", icon: Cpu },
-    ],
-  },
-  {
-    title: "Architecture",
-    icon: Layers,
-    items: [
-      { name: "Clean Architecture", icon: Layers },
-      { name: "SOLID Principles", icon: ShieldCheck },
-      { name: "Design Patterns", icon: Boxes },
-      { name: "Clean Code", icon: Braces },
-    ],
-  },
-];
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,vue,flutter,dotnet,nodejs,docker,linux,nginx" />
+</p>
 
-export default function App() {
-  const [visible, setVisible] = useState(false);
+<p align="center">
+Building scalable systems with clean architecture, strong backend foundations, and production-ready infrastructure.
+</p>
 
-  useEffect(() => setVisible(true), []);
+---
 
-  const scrollTo = (id) =>
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+## 🧠 Technical Stack
 
-  return (
-    <div className="min-h-screen bg-slate-950 text-slate-200">
+### 💻 Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=react,vue,flutter,html,css,js,ts,tailwind" />
+</p>
 
-      {/* NAV */}
-      <nav className="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur border-b border-slate-800">
-        <div className="max-w-6xl mx-auto h-16 px-6 flex items-center justify-between">
-          <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">
-            M.DEV
-          </span>
-          <div className="hidden md:flex gap-8 text-sm text-slate-400">
-            {["about", "skills", "contact"].map((s) => (
-              <button key={s} onClick={() => scrollTo(s)} className="hover:text-cyan-400">
-                {s.toUpperCase()}
-              </button>
-            ))}
-          </div>
-        </div>
-      </nav>
+### 🧠 Backend
+<p>
+  <img src="https://skillicons.dev/icons?i=dotnet,nodejs,express" />
+</p>
 
-      {/* HERO */}
-      <section
-        id="about"
-        className="pt-32 min-h-screen flex flex-col justify-center px-6 max-w-6xl mx-auto"
-      >
-        <div className={`transition-all duration-1000 ${visible ? "opacity-100" : "opacity-0 translate-y-6"}`}>
-          <span className="inline-flex items-center gap-2 px-3 py-1 mb-6 rounded-full bg-cyan-950/40 border border-cyan-800 text-cyan-400 text-sm">
-            <Terminal size={14} /> Full-Stack Developer
-          </span>
+### 🗄 Databases
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
+</p>
 
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            Mohammed<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-500">
-              Clean Architecture Engineer
-            </span>
-          </h1>
+### ☁️ DevOps & Cloud
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,linux,nginx,githubactions" />
+</p>
 
-          <p className="max-w-2xl text-xl text-slate-400 mb-10">
-            Building scalable systems, production-ready APIs, secure servers,
-            and clean maintainable architectures.
-          </p>
+---
 
-          <div className="flex gap-4">
-            <button
-              onClick={() => scrollTo("contact")}
-              className="px-8 py-3 bg-cyan-600 hover:bg-cyan-500 rounded-lg flex items-center gap-2"
-            >
-              <Mail size={18} /> Contact
-            </button>
-            <a
-              href="https://github.com/USERNAME"
-              target="_blank"
-              rel="noreferrer"
-              className="px-8 py-3 bg-slate-800 border border-slate-700 rounded-lg flex items-center gap-2"
-            >
-              <Github size={18} /> GitHub
-            </a>
-          </div>
-        </div>
+## 🖥 Servers & Networking
+<p>
+  <img src="https://img.shields.io/badge/Linux_Server-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/DNS-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Firewall-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/NAT-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Port_Forwarding-000000?style=flat-square" />
+</p>
 
-        <ChevronDown className="mx-auto mt-20 animate-bounce text-slate-600" />
-      </section>
+---
 
-      {/* SKILLS */}
-      <section id="skills" className="py-24 px-6 max-w-6xl mx-auto">
-        <h2 className="text-center text-4xl font-bold mb-16">Technical Stack</h2>
+## 🧱 Architecture & Code Quality
+<p>
+  <img src="https://img.shields.io/badge/Clean_Architecture-4CAF50?style=flat-square" />
+  <img src="https://img.shields.io/badge/Clean_Code-2196F3?style=flat-square" />
+  <img src="https://img.shields.io/badge/SOLID-9C27B0?style=flat-square" />
+  <img src="https://img.shields.io/badge/Design_Patterns-FF9800?style=flat-square" />
+</p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {SKILLS.map(({ title, icon: Icon, items }) => (
-            <div
-              key={title}
-              className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition"
-            >
-              <div className="flex items-center gap-3 mb-6">
-                <div className="p-3 bg-cyan-500/10 text-cyan-400 rounded-lg">
-                  <Icon size={22} />
-                </div>
-                <h3 className="text-xl font-bold">{title}</h3>
-              </div>
+---
 
-              <div className="flex flex-wrap gap-2">
-                {items.map(({ name, icon: I }) => (
-                  <span
-                    key={name}
-                    className="flex items-center gap-2 px-3 py-1 bg-slate-800 border border-slate-700 rounded-md text-sm"
-                  >
-                    <I size={14} /> {name}
-                  </span>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+## 🔧 Systems & Integrations
+<p>
+  <img src="https://img.shields.io/badge/REST_API-009688?style=flat-square" />
+  <img src="https://img.shields.io/badge/Authentication-673AB7?style=flat-square" />
+  <img src="https://img.shields.io/badge/RBAC-3F51B5?style=flat-square" />
+  <img src="https://img.shields.io/badge/IoT-607D8B?style=flat-square" />
+</p>
 
-      {/* CONTACT */}
-      <section id="contact" className="py-24 text-center bg-slate-900">
-        <h2 className="text-3xl font-bold mb-8">Let’s Work Together</h2>
-        <div className="flex flex-col md:flex-row gap-6 justify-center">
-          <a
-            href="https://linkedin.com/in/USERNAME"
-            className="px-8 py-4 bg-[#0077b5] rounded-xl flex items-center justify-center gap-3"
-          >
-            <Linkedin /> LinkedIn
-          </a>
-          <a
-            href="mailto:your@email.com"
-            className="px-8 py-4 bg-slate-800 border border-slate-700 rounded-xl flex items-center justify-center gap-3"
-          >
-            <Mail /> Email
-          </a>
-        </div>
-      </section>
-    </div>
-  );
-}
+---
+
+## 🧠 Problem Solving & Leadership
+<p>
+  <img src="https://img.shields.io/badge/Problem_Solving-E91E63?style=flat-square" />
+  <img src="https://img.shields.io/badge/Debugging-795548?style=flat-square" />
+  <img src="https://img.shields.io/badge/Team_Leader-2E7D32?style=flat-square" />
+  <img src="https://img.shields.io/badge/Code_Review-1565C0?style=flat-square" />
+  <img src="https://img.shields.io/badge/Soft_Skills-FF5722?style=flat-square" />
+</p>
+
+---
+
+## 🚀 Domains Experience
+<p>
+  <img src="https://img.shields.io/badge/HR_Systems-0A66C2?style=flat-square" />
+  <img src="https://img.shields.io/badge/Accounting_Systems-4CAF50?style=flat-square" />
+  <img src="https://img.shields.io/badge/Attendance_Systems-FF9800?style=flat-square" />
+  <img src="https://img.shields.io/badge/Internal_Tools-607D8B?style=flat-square" />
+</p>
+
+---
+
+## 📫 Contact
+<p>
+  <a href="https://github.com/Masa97z">
+    <img src="https://skillicons.dev/icons?i=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/mohammed-abd-3578402a7/">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+</p>
+
+---
+
+⭐ Clean code. Strong architecture. Real systems.
