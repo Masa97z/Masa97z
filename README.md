@@ -19,7 +19,7 @@ Building scalable systems with clean architecture, strong backend foundations, a
 
 ### 🧠 Backend
 <p>
-  <img src="https://skillicons.dev/icons?i=dotnet,nodejs,express" />
+  <img src="https://skillicons.dev/icons?i=dotnet,nodejs,express,nestjs" />
 </p>
 
 ### 🗄 Databases
