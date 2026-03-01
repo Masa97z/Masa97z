@@ -14,7 +14,7 @@ Building scalable systems with clean architecture, strong backend foundations, a
 
 ### 💻 Frontend
 <p>
-  <img src="https://skillicons.dev/icons?i=react,vue,flutter,html,css,js,ts,tailwind" />
+  <img src="https://skillicons.dev/icons?i=react,vue,flutter,html,css,js,ts,tailwind,kotlin" />
 </p>
 
 ### 🧠 Backend
