@@ -83,6 +83,7 @@ Building scalable systems with clean architecture, strong backend foundations, a
   <img src="https://img.shields.io/badge/HR_Systems-0A66C2?style=flat-square" />
   <img src="https://img.shields.io/badge/Accounting_Systems-4CAF50?style=flat-square" />
   <img src="https://img.shields.io/badge/Attendance_Systems-FF9800?style=flat-square" />
+  <img src="https://img.shields.io/badge/Beity_System-FF9a60?style=flat-square" />
   <img src="https://img.shields.io/badge/Internal_Tools-607D8B?style=flat-square" />
 </p>
 
